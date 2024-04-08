@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    background: url("/white-paper-texture.jpg");
+    background-color: #101b3b90;
+}
+
+.profilePic{
+    position: absolute;
+    right: 0px;
+    height: 100vmin;
+    /* border-left: 4px solid #e7b745; */
+    /* box-shadow: #20315a; */
+}
+
+.hithere{
+    position: absolute;
+    color: #101b3b;
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+    top:30%;
+    left: 18%;
+}
+
+#im{
+    color: #101b3b;
+    font-size: 50px;
+    font-family: "Nunito", sans-serif;
+    position: absolute;
+    top:33%;
+    left: 16%;
+}
+
+#name{
+    position: absolute;
+    font-family: "Kanit", sans-serif;
+    color: #e7b745; top:32.3%;
+    font-size: 50px;
+    left: 21.5%;
+}
+
+.box{
+    position: absolute;
+    background-color: #e7b745;
+    width: 200px;
+    height: 4%;
+    top:41%;
+    left: 16%;
+    border-radius: 5vmin;
+}
+
+.box span{
+    position: absolute;
+    left: 15px;
+    top:2px;
+}
+
+.box span::before{
+    content: "FONT-END DEVELOPER";
+    color: white;
+    font-family: "Kanit", sans-serif;
+    animation: words 20s steps(14) infinite;
+}
+.box span::after{
+    content: "";
+    color: white;
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: #e7b745; 
+    border-left: 2px solid white;
+    right: -8px;
+    animation: cursor .8s infinite, typing 25s steps(14) infinite;
+}
+
+@keyframes cursor{
+    to{
+        border-left: 2px solid white;
+    }
+}
+
+@keyframes words{
+    0%,25%{
+        content: "FONT-END DEVELOPER";
+    } 26%,50%{
+        content: "SOFTWARE DEVELOPER";
+    } 51%,75%{
+        content: "PHOTOGRAPHER";
+    } 76%,100%{
+        content: "DESIGNER";
+    }
+}
+
+@keyframes typing{
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
+
+.summery{
+    position: absolute;
+    color: #101b3b;
+    font-family: "Nunito", sans-serif;
+    left: 16%;
+    top:46%;
+    width: 450px;
+}
+
+.More-About{
+    position: absolute;
+    background-color: #e7b745;
+    width: 140px;
+    height: 3.7%;
+    top:62%;
+    left: 16%;
+    border: 0px;
+    border-radius: 5vmin;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    transition: background-color ease 1s;
+    transition: color ease .5s;
+}
+
+.More-About:hover{
+    
+    color: #e7b745;
+    background-color: white;
+    border:1px solid #e7b745;
+}
+
+.navbar{
+    background-color: rgb(231, 183, 69) ;
+    width: 50px;
+    height: 330px;
+    border-radius: 5vmin;
+    position: fixed;
+    left: 40px;
+    top:24%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    transition: box-shadow ease .3s;
+}
+
+.navbar:hover{  box-shadow: 0px 1px 7px 1px rgba(16, 27, 59, 0.406);}
+.linkedin{
+    position: absolute;
+    left: 290px;
+    top:389px;
+}
+
+.linkedin img{
+    border-radius: 2px;
+}
+.homew{
+    bottom: 120px;
+}.homeText{bottom: 130px;}
+.aboutw {
+    bottom: 50px;
+}.aboutText{bottom: 60px;}
+.projw {
+    top: -20px;
+    /* height: 30px; */
+}.projText{top: -8px;}
+.eduw {
+    top: 50px;
+}.eduText{top:60px;}
+.chatw {
+    top: 120px;
+    /* height: 30px; */
+}.chatText{ top: 134px;}
+
+.home,
+.about,
+.proj,
+.edu,
+.chat{
+    position: absolute;
+    left: 5px;
+    height: 1px;
+    width: 1px;
+    background-color: #e7b745;
+    border: none;
+    /* justify-content: center; */
+    /* border-radius: vmin; */
+    /* color: #e7b745; */
+}
+
+.homew,
+.aboutw,
+.projw,
+.eduw,
+.chatw{
+   height: 40px;
+   position: absolute;
+   border-radius: 5vmin;
+}
+
+.homew:hover,
+.aboutw:hover,
+.projw:hover,
+.eduw:hover,
+.chatw:hover{
+   height: 41px;
+}
+
+.homePage1,.aboutPage1,.projPage1,.eduPage1,.chatPage1{
+   animation: fade1n 1s;
+}
+@keyframes fade1n{from{opacity: 0;}to{opacity: 1;}}
+.homePage,.aboutPage,.projPage,.eduPage,.chatPage{
+    display: none;
+} 
+.navbar{
+    animation: fade1n 2s;
+}
+
+.homeText,.aboutText,.projText,.eduText,.chatText{
+    opacity: 0;
+    position: absolute;
+    font-family: "Kanit", sans-serif;/* font-family: "Lato", sans-serif; */
+    color: white;
+    left:50px;
+    width: 110px;
+    text-align: justify;
+    opacity: 0;
+    font-size: 15px;
+    transition: opacity 2s linear;
+    text-align: center;
+    border-radius: 5vmin;
+    transition: color linear 1s; 
+    transition: box-shadow ease .5s;
+}
+.homew:hover + .homeText,
+.aboutw:hover + .aboutText,
+.projw:hover + .projText,
+.eduw:hover + .eduText,
+.chatw:hover + .chatText{
+    box-shadow: 0px 1px 8px 1px rgba(16, 27, 59, 0.272);
+   opacity: 1;
+   background-color:  #e7b745;
+}
+
+/* Small displays (mobile) */
+@media only screen and (max-width: 600px) {
+    
+.profilePic {
+    position: absolute;
+    left: -100px; /* Adjust as needed */
+    top: -200px; /* Adjust as needed */
+    height: 1000px; /* Adjust as needed */
+    display: block;
+}
+
+.hithere{
+  
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+    top:90px;
+    left: 34%;
+}
+
+#im{
+    top:112px;
+    left: 4%;
+}
+
+#name{
+    top:106px;
+    font-size: 47px;
+    left: 21.5%;
+    width: 900px;
+}
+
+.box{
+    top:164px;
+    left: 27%;
+  }
+
+.summery{
+    left: 15px;
+    top:199px;
+    width: 300px;
+}
+
+.More-About{
+    height: 3.7%;
+    top:333px;
+    left: 33%;
+    border: 0px;
+}
+
+.navbar{
+    background-color: rgb(231, 183, 69) ;
+    width: 330px;
+    height: 50px;
+    border-radius: 5vmin;
+    position: fixed;
+    left: 60px;
+    top:0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    transition: box-shadow ease .3s;
+}
+.homew{
+    left: 0px;
+}
+.aboutw {
+    left: 70px;
+}
+.projw {
+    left: 140px;
+    /* height: 30px; */
+}
+.eduw {
+    left: 210px;
+}
+.chatw {
+    left: 280px;
+    /* height: 30px; */
+}
+
+.home,
+.about,
+.proj,
+.edu,
+.chat{
+    position: absolute;
+    top: 50px;
+    height: 1px;
+    width: 1px;
+    background-color: #e7b745;
+    border: none;
+    /* justify-content: center; */
+    /* border-radius: vmin; */
+    /* color: #e7b745; */
+}
+
+.homew,
+.aboutw,
+.projw,
+.eduw,
+.chatw{
+    top: -45px;
+   height: 40px;
+   position: absolute;
+   border-radius: 5vmin;
+}
+
+.homew:hover,
+.aboutw:hover,
+.projw:hover,
+.eduw:hover,
+.chatw:hover{
+   height: 41px;
+}
+
+.homeText,.aboutText,.projText,.eduText,.chatText{
+    opacity: 0;
+    position: absolute;
+    font-family: "Kanit", sans-serif;/* font-family: "Lato", sans-serif; */
+    color: white;
+    left:105px;
+    width: 110px;
+    text-align: justify;
+    font-size: 15px;
+    transition: opacity 2s linear;
+    text-align: center;
+    border-radius: 5vmin;
+    transition: color linear 1s; 
+    transition: box-shadow ease .5s;
+    top: 5px;
+}
+.homew:hover + .homeText,
+.aboutw:hover + .aboutText,
+.projw:hover + .projText,
+.eduw:hover + .eduText,
+.chatw:hover + .chatText{
+    box-shadow: 0px 1px 8px 1px rgba(16, 27, 59, 0);
+   opacity: 1;
+   background-color: transparent;
+}
+
+}
