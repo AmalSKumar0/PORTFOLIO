@@ -4,9 +4,7 @@ let interval = null;
 
 document.querySelector(".h1cl").onmouseover = event => {  
   let iteration = 0;
-  
   clearInterval(interval);
-  
   interval = setInterval(() => {
     event.target.innerText = event.target.innerText
       .split("")
