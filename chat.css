@@ -6,13 +6,14 @@
 }
 
 .navCopy{
+    position: fixed;
     background-color:white ;
     width: 60px;
     height: 341px;
-    border-radius: 5vmin;
+    border-radius: 30px;
     position: fixed;
-    left: 35px;
-    top:23.2%; 
+    left: 2.4vmax;
+    top:23.3vh;
 }
 
 .line{
@@ -26,9 +27,10 @@
 }
 
 .line2{
+    position: relative;
     background-color:white ;
     width: 4px;
-    height: 180px;
+    height:25vh;
     /* border-radius: 5vmin; */
     position: fixed;
     left: 20%;
@@ -38,56 +40,60 @@
 .thanks{
     font-family: "DM Serif Display", serif;
     color: white;
-    font-size: 150px;
+    font-size:9vmax;
     position: inherit;
     top: 12%;
-    left: 20%;
+    left: 26%;
+}
+
+.contacts{
+    position: absolute;
+    left: 13.4%;
+    bottom:22.5%;
 }
 
 .phone img{
-    position: absolute;
+    position: relative;
     height: 40px;
     left: 21%;
     bottom:39%;
 }
 .web img{
-    position: absolute;
+    position: relative;
     height: 40px;
     left: 21%;
     bottom:30%;
 }
 
 .location img{
-    position: absolute;
+    position: relative;
     height: 40px;
     left: 21%;
     bottom:21%;
 }
 
 .phno{
-    position: absolute;
+    position: relative;
     color: white;
     font-size: 20px;
-    left: 24.5%;
-    bottom:39.8%;
+    left: 22.5%;
+    top:-12px;
     font-family: "Kanit", sans-serif;
 }
 
 .email{
-    position: absolute;
+    position: relative;
     color: white;
     font-size: 20px;
-    left: 24.5%;
-    bottom:30.9%;
+    left: 22.5%;top:-12px;
     font-family: "Kanit", sans-serif;
 }
 
 .address{
-    position: absolute;
+    position: relative;
     color: white;
     font-size: 18px;
-    left: 24.5%;
-    bottom:21.9%;
+    left: 22.5%;top:-13px;
     font-family: "Kanit", sans-serif;
 }
 
@@ -130,8 +136,8 @@
     height: 60px;
     border-radius: 160px;
     position: fixed;
-    left: 53px;
-    top:-1%; 
+    left: 2.72vmax;
+    top:24vmin; 
 }
 .line{
     left: 0px;
@@ -144,37 +150,40 @@
 }
 
 .thanks{
-    font-size: 75px;
+    font-size: 50px;
     top: 14%;
-    left: 07%;
+    left: 9%;
 }
 .phone img{
-    left: 12%;
+    left: -10%;
     bottom:43%;
 }
 .web img{
-    left: 12%;
-    bottom:35%;
+    left: -10%;
+    bottom:0px;
 }
 
 .location img{
-    left: 12%;
+    left: -10%;
     bottom:27%;
 }
 .phno{
-    left: 21.5%;
+    font-size: large;
+    left: -4%;
     bottom:43.3%;
     font-family: "Kanit", sans-serif;
 }
 
 .email{
-    left: 21.5%;
+    font-size: large;
+    left: -4%;
     bottom:35.4%;
     font-family: "Kanit", sans-serif;
 }
 
 .address{
-    left: 21.5%;
+    font-size: large;
+    left: -4%;
     bottom:24%;
     font-family: "Kanit", sans-serif;
 }
