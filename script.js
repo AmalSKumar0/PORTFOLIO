@@ -15,7 +15,7 @@ let more_about=document.querySelector(".More-About");
 more_about.addEventListener(("click"),()=>{
     if(prev!=2){
     navbarReset(prev);
-    aboutImg.setAttribute("src","/icons/yellowAbout.png");
+    aboutImg.setAttribute("src","yellowAbout.png");
     aboutPage.setAttribute("class","aboutPage1");
     prev=2;}
 });
