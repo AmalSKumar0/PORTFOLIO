@@ -8,7 +8,7 @@
 }
 
 .centerEdu{
-    position: relative;
+    position: absolute;
     border: 15px solid transparent;
     border-radius: 50%;
     background-color: white;
@@ -17,7 +17,13 @@
     top: 34vmin;
     left: 15.5%;
 }
-
+.containerForInfo{
+       position: absolute;
+       height: 600px;
+       width: 1000px;
+       top: 7vh;
+       left: 30%;
+}
 .blueCON{
     position: absolute;
     background-color: #101b3be2;
@@ -30,149 +36,102 @@
     color: white;
     background-color: #101b3b;
     text-align: center;
-    width: 29%;
-    height: 48px;
-    position: absolute;
-    right: 29%;
-    top: 5%;
+    width: 470px;
+    height: auto;
+    position: relative;
+    left: 290px;
+    top: 15px;
     font-size:34px ;
     font-family: "DM Serif Display", serif;
     border-radius: 5vmin;
 }
 
 .educationQ{
-    position: absolute;
-    right: 48.6%;
-    top: 24.6%;
+    position: relative;
+    left: 6%;
+    top: 70px;
     color: #101b3b;
     text-align: justify;
-    font-family: "Nunito", sans-serif;
-}
-
-.line3{
-    position: absolute;
-    height: 263px;
-    width: 3px;
-    left: 30.4%;
-    top: 24.2%;
-    background-color: #101b3b;
-}
-
-.line4{
-    position: absolute;
-    height: 43px;
-    width: 2px;
-    left: 57.2%;
-    top: 24.2%;
-    background-color: #101b3b;
+    font-family: sans-serif;
 }
 
 .educationQh{
-    position: absolute;
-    left: 30.2%;
-    top: 19%;
+    position: relative;
+    left: 5.7%;
+    top: 70px;
     color: #101b3b;
-    text-align: justify;
-    font-family: "Nunito", sans-serif;
+    font-family: sans-serif;
 }
 
 .experienceQh{
-    position: absolute;
-    left: 56.9%;
-    top: 19%;
+    position: relative;
+    left: 39%;
+    top: -175px;
     color: #101b3b;
     text-align: justify;
-    font-family: "Nunito", sans-serif;
+    font-family: sans-serif;
 }
 .experienceQ{
-    position: absolute;
-    left: 58.4%;
-    top: 24.6%;
+    position: relative;
+    left: 39%;
+    top: -176px;
     color: #101b3b;
     text-align: justify;
-    font-family: "Nunito", sans-serif;
-}
-.experienceQ SPan{
-    top: 27.6%;
-}
-
-.line5{
-    position: absolute;
-    height: 43px;
-    width: 2px;
-    left: 57.2%;
-    top: 36.2%;
-    background-color: #101b3b;
+    font-family: sans-serif;
 }
 
 .achivementsQ{
-    position: absolute;
-    left: 58.4%;
-    top: 36.6%;
+    position: relative;
+    left: 39%;
+    top: -176px;
     color: #101b3b;
     text-align: justify;
-    font-family: "Nunito", sans-serif;
+    font-family: sans-serif;
 }
 
 .achivementsQh{
-    position: absolute;
-    left: 56.9%;
-    top: 31%;
+    position: relative;
+    left: 39%;
+    top: -176px;
     color: #101b3b;
     text-align: justify;
-    font-family: "Nunito", sans-serif;
+    font-family: sans-serif;
 }
 
 
 .langQ{
-    position: absolute;
-    left: 58.4%;
-    top: 48.6%;
+    position: relative;
+    left: 39%;
+    top: -176px;
     color: #101b3b;
     text-align: justify;
-    font-family: "Nunito", sans-serif;
+    font-family: sans-serif;
 }
 
 .langQh{
-    position: absolute;
-    left: 56.9%;
-    top: 43%;
+    position: relative;
+    left: 39%;
+    top: -176px;
     color: #101b3b;
     text-align: justify;
-    font-family: "Nunito", sans-serif;
-}
-.line6{
-    position: absolute;
-    height: 69px;
-    width: 2px;
-    left: 57.2%;
-    top: 48.2%;
-    background-color: #101b3b;
-}
-.line7{
-    position: absolute;
-    height: 187px;
-    width: 3px;
-    right: 16.6%;
-    top: 24.2%;
-    background-color: #101b3b;
+    font-family: sans-serif;
 }
 .skillsQ{
-    position: absolute;
-    right: 11%;
-    top: 24.6%;
+    position: relative;
+    left: 75%;
+    top: -416px;
     color: #101b3b;
     text-align: justify;
-    font-family: "Nunito", sans-serif;
+    font-family: sans-serif;
 }
 
 .skillsQh{
-    position: absolute;
-    right: 10%;
-    top: 19%;
+    position: relative;
+    left: 75%;
+    top: -416px;
     color: #101b3b;
     text-align: justify;
-    font-family: "Nunito", sans-serif;
+    font-family: sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
