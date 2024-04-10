@@ -81,7 +81,6 @@
     background-color: #e7b645;
 }
 
-
 .container{
     position: absolute;
     display: grid;
@@ -91,6 +90,11 @@
     left: 12%;
     top:14%;
 }
+@media only screen and (max-width: 600px) {
+    .container{
+       left:0px;
+    }
+  }
 
 .cards{
     display: grid;
