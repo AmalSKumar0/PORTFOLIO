@@ -1,7 +1,7 @@
 .cover{
     background-color: #e7b64581;
     height: 550px;
-    width: 550px;
+    width: 36%;
     position: absolute;
     top: 10%;
     left: 14%;
@@ -10,7 +10,7 @@
 .coverB{
     background-color: #e7b64581;
     height: 550px;
-    width: 80px;
+    width: 2%;
     position: absolute;
     top: 10%;
     right: 0px;
@@ -29,7 +29,7 @@
     transform:scale(-1,1) rotate(-90deg);
     color: #e7b645;
     top: 220px;
-    left: 300px;
+    left: 50%;
     font-size: 100px;
 }
 
@@ -68,15 +68,15 @@
         opacity: 0;
     }
     .info{
-        left:11%;
-        width: 400px;
+        left:16px;
+        width: 340px;
     }
     .coverB{
         opacity: 0;
     }
     .cover{
-        left:10%;
-        width:410px;
+        left:10px;
+        width:360px;
         height: 800px;
     }
     .aboutHead{
